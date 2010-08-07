@@ -1,0 +1,9 @@
+<index-page>
+  <before-collection:>
+    <form action="&object_url(Post)" method="GET">
+      <label for="query">Search Posts</label>
+      <input type="text" name="query" value="#{@query}" />
+      <submit label="Search" />
+    </form>
+  </before-collection:>
+</index-page>

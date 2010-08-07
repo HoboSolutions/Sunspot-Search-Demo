@@ -1,0 +1,239 @@
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /Users/owendall/hoboapps/sunspot-search-demo/solr
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to '/Users/owendall/hoboapps/sunspot-search-demo/solr/'
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/Users/owendall/hoboapps/sunspot-search-demo/solr/lib/lucene-spatial-2.9.1.jar' to classloader
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/Users/owendall/hoboapps/sunspot-search-demo/solr/lib/solr-spatial-light-0.0.6.jar' to classloader
+Aug 7, 2010 12:45:48 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /Users/owendall/hoboapps/sunspot-search-demo/solr
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /Users/owendall/hoboapps/sunspot-search-demo/solr/solr.xml
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to '/Users/owendall/hoboapps/sunspot-search-demo/solr/'
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/Users/owendall/hoboapps/sunspot-search-demo/solr/lib/lucene-spatial-2.9.1.jar' to classloader
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/Users/owendall/hoboapps/sunspot-search-demo/solr/lib/solr-spatial-light-0.0.6.jar' to classloader
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrConfig initLibs
+INFO: Adding specified lib dirs to ClassLoader
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrCore <init>
+INFO: Opening new SolrCore at /Users/owendall/hoboapps/sunspot-search-demo/solr/, dataDir=/Users/owendall/hoboapps/sunspot-search-demo/solr/data/development/
+Aug 7, 2010 12:45:48 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Aug 7, 2010 12:45:48 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=sunspot
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created string: org.apache.solr.schema.StrField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tdouble: org.apache.solr.schema.TrieDoubleField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created rand: org.apache.solr.schema.RandomSortField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created null: org.apache.solr.analysis.StandardTokenizerFactory
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created null: org.apache.solr.analysis.StandardFilterFactory
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created null: org.apache.solr.analysis.LowerCaseFilterFactory
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text: org.apache.solr.schema.TextField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created boolean: org.apache.solr.schema.BoolField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created date: org.apache.solr.schema.DateField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sdouble: org.apache.solr.schema.SortableDoubleField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sfloat: org.apache.solr.schema.SortableFloatField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sint: org.apache.solr.schema.SortableIntField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created slong: org.apache.solr.schema.SortableLongField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tint: org.apache.solr.schema.TrieIntField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tfloat: org.apache.solr.schema.TrieFloatField
+Aug 7, 2010 12:45:48 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tdate: org.apache.solr.schema.TrieDateField
+Aug 7, 2010 12:45:48 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field is text
+Aug 7, 2010 12:45:48 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Aug 7, 2010 12:45:48 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.JmxMonitoredMap <init>
+INFO: No JMX servers found, not exposing Solr information with JMX.
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrCore initListeners
+INFO: Added SolrEventListener: org.apache.solr.core.QuerySenderListener{queries=[]}
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrCore initListeners
+INFO: Added SolrEventListener: org.apache.solr.core.QuerySenderListener{queries=[{q=solr rocks,start=0,rows=10}, {q=static firstSearcher warming query from solrconfig.xml}]}
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrCore initIndex
+WARNING: Solr index directory '/Users/owendall/hoboapps/sunspot-search-demo/solr/data/development/index' doesn't exist. Creating new index...
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/Users/owendall/hoboapps/sunspot-search-demo/solr/data/development/index,segFN=segments_1,version=1281199548768,generation=1,filenames=[segments_1]
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1281199548768
+Aug 7, 2010 12:45:48 PM org.apache.solr.request.XSLTResponseWriter init
+INFO: xsltCacheLifetimeSeconds=5
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created standard: solr.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created dismax: solr.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created partitioned: solr.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /spell: solr.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created tvrh: org.apache.solr.handler.component.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: org.apache.solr.handler.extraction.ExtractingRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: org.apache.solr.handler.extraction.ExtractingRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /terms: org.apache.solr.handler.component.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /elevate: solr.SearchHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.XmlUpdateRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/javabin: solr.BinaryUpdateRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.CSVRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: org.apache.solr.handler.admin.AdminHandlers
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: PingRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+Aug 7, 2010 12:45:48 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@37b994de main
+Aug 7, 2010 12:45:48 PM org.apache.solr.update.DirectUpdateHandler2$CommitTracker <init>
+INFO: AutoCommit: disabled
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Aug 7, 2010 12:45:48 PM org.apache.solr.spelling.AbstractLuceneSpellChecker init
+INFO: Using WhitespaceAnalzyer for dictionary: default
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SpellCheckComponent inform
+WARNING: No queryConverter defined, using default converter
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.QueryElevationComponent inform
+INFO: Loading QueryElevation from: /Users/owendall/hoboapps/sunspot-search-demo/solr/conf/elevate.xml
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@524c71d2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@18c4bc34
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1c2006a0
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@7a9300cc
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@49198ff2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:me.outofti.solrspatiallight.SpatialQueryComponent@2d397e5c
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@1996e136
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@524c71d2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@18c4bc34
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1c2006a0
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@7a9300cc
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@49198ff2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@1996e136
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@524c71d2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@18c4bc34
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1c2006a0
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@7a9300cc
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@49198ff2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@1996e136
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@524c71d2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@18c4bc34
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1c2006a0
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@7a9300cc
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@49198ff2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@9bad5a
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@1996e136
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@524c71d2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@18c4bc34
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@1c2006a0
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@7a9300cc
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@49198ff2
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.TermVectorComponent@6c91f005
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@1996e136
+Aug 7, 2010 12:45:48 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.TermsComponent@61250ff2
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@37b994de main
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.CoreContainer register
+INFO: registering core: 
+Aug 7, 2010 12:45:48 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/Library/Ruby/Gems/1.8/gems/sunspot-1.1.0/solr
+Aug 7, 2010 12:45:48 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+Aug 7, 2010 12:45:48 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init()
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Aug 7, 2010 12:45:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /Users/owendall/hoboapps/sunspot-search-demo/solr
+Aug 7, 2010 12:45:48 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init() done
+Aug 7, 2010 12:45:49 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Aug 7, 2010 12:45:49 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /Users/owendall/hoboapps/sunspot-search-demo/solr
+Aug 7, 2010 12:45:49 PM org.apache.solr.servlet.SolrUpdateServlet init
+INFO: SolrUpdateServlet.init() done
+Aug 7, 2010 12:45:49 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={start=0&event=firstSearcher&q=solr+rocks&rows=10} hits=0 status=0 QTime=56 
+Aug 7, 2010 12:45:49 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+query+from+solrconfig.xml} hits=0 status=0 QTime=1 
+Aug 7, 2010 12:45:49 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Aug 7, 2010 12:45:49 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+INFO: Loading spell index for spellchecker: default
+Aug 7, 2010 12:45:49 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@37b994de main
